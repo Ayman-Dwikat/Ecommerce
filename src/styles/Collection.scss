@@ -1,0 +1,54 @@
+.filter-options {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.min-w-20 {
+  min-width: 20%;
+}
+
+.filter-icon {
+  height: 1rem;
+  transition: transform 0.3s;
+}
+
+.filter-icon.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.filter-section {
+  border: 1px solid #d1d5db;
+  padding: 12px 0 12px 20px;
+  margin-top: 1.5rem;
+}
+
+.filter-title {
+  margin-bottom: 0.75rem;
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+.filter-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #444;
+}
+
+.filter-item input {
+  width: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.form-select-sm {
+  @media (min-width: 576px) {
+    font-size: 1rem;
+  }
+}

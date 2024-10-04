@@ -1,0 +1,16 @@
+.order-item {
+  .item-detail {
+    color: #007bff;
+  }
+
+  .para-detail {
+    margin-bottom: 5px;
+    min-width: 170px;
+    font-size: 14px;
+
+    @media (max-width: 576px) {
+      width: auto;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  /* min-height: 200vh; */
+}
+
+* {
+  font-family: Outfit;
+  box-sizing: border-box;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.toast-full-width {
+  bottom: 0;
+  right: 0;
+  font-size: 15.2px;
+  z-index: 200;
+
+  @media (max-width: 576px) {
+    width: 100%;
+    top: 0;
+    bottom: auto;
+    border-radius: 0;
+  }
+}
+
+.styled-button {
+  width: auto;
+  padding: 0.5rem 1.5rem;
+  margin-left: auto;
+  border-radius: 0;
+  font-size: 15px;
+
+  @media (max-width: 576px) {
+    font-size: 14px;
+    padding: 0.4rem 1.2rem;
+  }
+
+  @media (max-width: 450px) {
+    margin-left: 0;
+  }
+}
+
+.padding-button {
+  font-size: 0.9rem;
+  padding: 7px 15px;
+
+  @media (max-width: 576px) {
+    font-size: 0.84rem;
+    padding: 7px 14px;
+  }
+}
+
+input.form-control {
+  border-radius: 4px;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+input.form-control::placeholder {
+  color: rgba(146, 146, 146, 0.849);
+}
+
+.error {
+  margin: 0;
+  margin-left: 5px;
+  font-size: 15px;
+}
