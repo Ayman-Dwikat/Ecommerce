@@ -4,10 +4,6 @@ html {
   scrollbar-width: none;
 }
 
-body {
-  /* min-height: 200vh; */
-}
-
 * {
   font-family: Outfit;
   box-sizing: border-box;
