@@ -7,9 +7,9 @@ import OurPolicy from "../components/OurPolicy";
 const Home = () => {
   return (
     <>
-      <Header />
-      <LatestCollection />
-      <BestSellers />
+      {/* <Header /> */}
+      {/* <LatestCollection /> */}
+      {/* <BestSellers /> */}
       <OurPolicy />
       <div className="overflow-hidden">
         <NewsletterBox />
